@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <>
             <div className="navbar flex flex-row bg-black text-white p-4 pr-16 pl-16 justify-between items-center">
-                <div className="left font-bold text-2xl">ReCode</div>
+                <Link to="/" className="left font-bold text-2xl">ReCode</Link>
                 <div className="middle flex flex-row gap-8">
                     <Link to="/code-convertor" className="hover:text-purple-800 hover:text-xl">Code Convertor</Link>
                     <Link to="/cli-guide" className="hover:text-purple-800 hover:text-xl">CLI Guide</Link>
